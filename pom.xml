@@ -48,13 +48,13 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
-                <execution>
-                    <id>report</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>report</goal>
-                    </goals>
-                </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
                     <execution>
                         <id>check-coverage</id>
                         <phase>verify</phase>
@@ -69,7 +69,7 @@
                                         <limit>
                                             <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>0.70</minimum>
+                                            <minimum>1</minimum>
                                         </limit>
                                         <limit>
                                             <counter>BRANCH</counter>
